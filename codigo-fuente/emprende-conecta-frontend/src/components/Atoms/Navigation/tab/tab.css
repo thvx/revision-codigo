@@ -1,0 +1,19 @@
+.tabs-bordered .tab {
+    position: relative;
+    padding-bottom: 4px; 
+  }
+  
+  .tabs-bordered .tab::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; 
+    background-color: #BDD6E8; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .tabs-bordered .tab-active::after {
+    background-color: #E0FF4F; 
+  }
